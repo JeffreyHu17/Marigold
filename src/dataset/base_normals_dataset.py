@@ -34,7 +34,6 @@ import os
 import random
 import tarfile
 import torch
-from enum import Enum
 from PIL import Image
 import torchvision.transforms.functional as TF
 from torch.utils.data import Dataset, get_worker_info

@@ -38,7 +38,6 @@ import tarfile
 import numpy as np
 import random
 import torch
-from enum import Enum
 from torch.utils.data import Dataset
 from torchvision.transforms import InterpolationMode, Resize
 from .base_depth_dataset import DatasetMode
