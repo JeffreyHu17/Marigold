@@ -39,12 +39,7 @@ from PIL import Image
 import torchvision.transforms.functional as TF
 from torch.utils.data import Dataset, get_worker_info
 from torchvision.transforms import InterpolationMode, Resize, ColorJitter
-
-
-class DatasetMode(Enum):
-    RGB_ONLY = "rgb_only"
-    EVAL = "evaluate"
-    TRAIN = "train"
+from .base_depth_dataset import DatasetMode
 
 
 class BaseNormalsDataset(Dataset):
