@@ -41,6 +41,7 @@ import torch
 from enum import Enum
 from torch.utils.data import Dataset
 from torchvision.transforms import InterpolationMode, Resize
+from .base_depth_dataset import DatasetMode
 
 from src.util.image_util import (
     img_hwc2chw,
@@ -49,12 +50,6 @@ from src.util.image_util import (
     read_img_from_file,
     read_img_from_tar,
 )
-
-
-class DatasetMode(Enum):
-    RGB_ONLY = "rgb_only"
-    EVAL = "evaluate"
-    TRAIN = "train"
 
 
 class BaseIIDDataset(Dataset):
