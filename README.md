@@ -385,7 +385,7 @@ export BASE_DATA_DIR=YOUR_DATA_DIR        # directory of training data
 export BASE_CKPT_DIR=YOUR_CHECKPOINT_DIR  # directory of pretrained checkpoint
 ```
 
-Download Stable Diffusion v2 [checkpoint](https://huggingface.co/stabilityai/stable-diffusion-2) into `${BASE_CKPT_DIR}`
+Download Stable Diffusion v2 [checkpoint](https://huggingface.co/stabilityai/stable-diffusion-2) into `${BASE_CKPT_DIR}` ([backup link](https://share.phys.ethz.ch/~pf/bingkedata/marigold/checkpoint/stable-diffusion-2.tar))
 
 ### Prepare for training data
 **Depth**
